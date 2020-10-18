@@ -1,0 +1,19 @@
+body{
+    display: grid;
+       grid: "h h h"
+             "s s s"
+             "f f f";
+       grid-template-columns: auto 1fr 20%;
+}
+
+section { 
+    grid-area: s;     
+}
+
+header{
+    grid-area: h;
+}
+
+footer{
+    grid-area: f;
+}

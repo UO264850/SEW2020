@@ -68,6 +68,11 @@ ul, ol, dl{
     list-style-type: square;
 }
 
+li{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
 /* Specifity 1 */
 img{
     max-width: 100%;

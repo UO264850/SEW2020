@@ -73,3 +73,8 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+/*Specifity 11*/ 
+.navbar li {
+    padding: 15px 5px;
+}
